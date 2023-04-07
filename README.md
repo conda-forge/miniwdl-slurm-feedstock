@@ -1,11 +1,11 @@
-About miniwdl-slurm
-===================
+About miniwdl-slurm-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/miniwdl-slurm-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/miniwdl-ext/miniwdl-slurm
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/miniwdl-slurm-feedstock/blob/main/LICENSE.txt)
 
 Summary: miniwdl slurm backend using singularity
 
