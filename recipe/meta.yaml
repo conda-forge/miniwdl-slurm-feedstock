@@ -1,17 +1,17 @@
 {% set name = "miniwdl-slurm" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ac1635e0f57c8e600f84074d940050cf261ade0ff619f2ed09d273a438f2fc02
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 2fa9da4c6141aa90c551b18e6be3fe7147fbdf6017775bb077e355a2767342e9
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
